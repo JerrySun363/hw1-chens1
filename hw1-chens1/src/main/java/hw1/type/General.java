@@ -10,10 +10,14 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/** General Annotaion and the basic annotation including the basic elements from its supertype. And it will also have confidence field since all the types includes it as a part.
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
- * @generated */
+/** General Annotaion and the basic annotation including the basic elements from its supertype.</br>
+ *  And it will also have confidence field since all the types includes it as a part.</br>
+ * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013</br>
+ * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml</br>
+ * This class should nevel have instances. It's better to see it as an interface.
+ * @category baisc
+ * @author Jerry Sun
+ * @version 1.0 */
 public class General extends Annotation {
   /** @generated
    * @ordered 

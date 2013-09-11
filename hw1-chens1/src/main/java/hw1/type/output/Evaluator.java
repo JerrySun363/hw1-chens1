@@ -12,9 +12,9 @@ import org.apache.uima.jcas.cas.FSList;
 import hw1.type.input.Question;
 
 
-/** This is the format output for all three 
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
+/** This is the format output for all three scoring methods.</br> 
+ * Annotators may use this type to give a full output in a unified format way and contain enough information.
+ * 
  * @generated */
 public class Evaluator extends General {
   /** @generated

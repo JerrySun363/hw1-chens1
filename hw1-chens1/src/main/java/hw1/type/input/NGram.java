@@ -11,10 +11,10 @@ import org.apache.uima.jcas.cas.FSArray;
 import hw1.type.General;
 
 
-/** An Ngram may contain several tokens
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
- * @generated */
+/** An NGram may contain several tokens. The NGram is limited to have maximal size of three.</br>
+ * It is also available to Tokens as token list, which is also extendible.
+ * It does support add individual element into the NGram instance.
+ *  */
 public class NGram extends General {
   /** @generated
    * @ordered 

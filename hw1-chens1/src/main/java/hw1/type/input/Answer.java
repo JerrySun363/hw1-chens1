@@ -10,9 +10,9 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import hw1.type.General;
 
 
-/** The  is an answer type. A isCorrect field will also be included in the type to make it complete
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
+/** The  is an answer type. An  <bold>isCorrect</bold> field is included in the type to make it complete and meaningful.</br>
+ * @author Jerry Sun
+ * 
  * @generated */
 public class Answer extends General {
   /** @generated
@@ -40,7 +40,9 @@ public class Answer extends General {
     readObject();
   }
   
-  /** @generated */
+  /**Default constructor. Treat an JCcas object as an answer.
+   * @argument  
+   * @generated */
   public Answer(JCas jcas) {
     super(jcas);
     readObject();   

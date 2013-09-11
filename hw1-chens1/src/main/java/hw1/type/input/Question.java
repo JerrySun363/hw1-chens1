@@ -11,8 +11,6 @@ import hw1.type.General;
 
 
 /** It is an question type. It should hold the same structure as the General type. However, it should be specified as the Question type to make its meaning clear.
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
  * @generated */
 public class Question extends General {
   /** @generated
@@ -40,13 +38,17 @@ public class Question extends General {
     readObject();
   }
   
-  /** @generated */
+  /** @generated 
+   * Default Constructor to use.</br>*/
   public Question(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   *  Default Constructor to use.</br>
+   * The beign and end position sets the corresponding inner fields.
+   *   */  
   public Question(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);

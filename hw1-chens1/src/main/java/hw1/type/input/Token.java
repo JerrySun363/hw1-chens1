@@ -10,9 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import hw1.type.General;
 
 
-/** To tokenize the tokens by space and commas, semi-commas, and '?'.
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
+/** To tokenize the tokens by space and commas, semi-commas, and '?', etc.
+ * Token should be considered the minimal unit of language representation.
  * @generated */
 public class Token extends General {
   /** @generated
@@ -40,13 +39,16 @@ public class Token extends General {
     readObject();
   }
   
-  /** @generated */
+  /** @generated 
+   * Constructor to use*/
   public Token(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated 
+   * Constructor to use<br>
+   * begin and set set the inner fields.*/  
   public Token(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);

@@ -11,11 +11,10 @@ import hw1.type.General;
 import hw1.type.input.Answer;
 
 
-/** Answer Score contains an answer.
-However, since an answer is an object. It should be regarded as a component rather a supertype.
-Meanwhile, it should be considered as a middle type between input and final output.
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
+/** Answer Score contains an answer as an object.<br>
+ *  It should be regarded as a component rather a supertype.
+Meanwhile, it should be considered as a middle type between input and final output.<br>
+ * Embed Answer will simplify the work needed for modification on Answer and AnswerScore. <--Design Pattern used here!:)
  * @generated */
 public class AnswerScore extends General {
   /** @generated
@@ -43,13 +42,15 @@ public class AnswerScore extends General {
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * Default constructor */
   public AnswerScore(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated 
+   *  Default constructor</br> begin and end set the inner fields */  
   public AnswerScore(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);

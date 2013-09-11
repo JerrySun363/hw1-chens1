@@ -11,9 +11,10 @@ import hw1.type.General;
 import org.apache.uima.jcas.cas.FSList;
 
 
-/** A Question should be converted to a NGramList since there might be more than one interpretation of NGrams to consider. A NGramList should consist all the NGrams one sentence may generate.
- * Updated by JCasGen Tue Sep 10 00:56:01 EDT 2013
- * XML source: /home/jerry/git/hw1-chens1/hw1-chens1/src/main/resources/hw1-chens1-typesystem.xml
+/** A Question should be converted to a NGramList in the N-Gram method 
+ * since there might be more than one interpretation of NGrams to consider.</br> 
+ * A NGramList should consist all the NGrams one sentence may generate.</br>
+ * In this way, a NGramList corresponds to one sentence (Question or Answer)
  * @generated */
 public class NGramList extends General {
   /** @generated
@@ -41,13 +42,16 @@ public class NGramList extends General {
     readObject();
   }
   
-  /** @generated */
+  /** @generated 
+   * Default Constructor to use.*/
   public NGramList(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** Default Constructor to use.</br>
+   * The beign and end position sets the corresponding inner fields.
+   * */  
   public NGramList(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
