@@ -18,7 +18,7 @@ public class TokenAnnotator extends JCasAnnotator_ImplBase {
 
   @Override
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
-    // TODO Auto-generated method stub
+    
     String text = aJCas.getDocumentText();
     String sentences[] = text.split("\n");
     int globalIndex = 0;

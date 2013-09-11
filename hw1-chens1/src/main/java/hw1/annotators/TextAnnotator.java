@@ -11,7 +11,7 @@ public class TextAnnotator extends JCasAnnotator_ImplBase {
 
   @Override
   public void process(JCas jcas) throws AnalysisEngineProcessException {
-    // TODO Auto-generated method stub
+    
     int globalIndex = 0;
     String text = jcas.getDocumentText();
     String[] lines = text.split("\n");
