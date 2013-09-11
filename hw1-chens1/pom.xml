@@ -96,7 +96,7 @@
     </dependency>
   </dependencies>
   <scm>
-  	<connection>scm:git:git@github.com:JerrySun363/hw0-chens1.git</connection>
-  	<developerConnection>scm:git:git@github.com:JerrySun363/hw0-chens1.git</developerConnection>
+  	<connection>scm:git:git@github.com:JerrySun363/hw1-chens1.git</connection>
+  	<developerConnection>scm:git:git@github.com:JerrySun363/hw1-chens1.git</developerConnection>
   </scm>
 </project>
